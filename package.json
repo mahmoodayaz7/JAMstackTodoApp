@@ -6,7 +6,10 @@
   "author": "Mehmood Ayaz <mahmoodayaz7@gmail.com>",
   "license": "MIT",
   "private": true,
-  "workspaces":[
+  "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "@types/netlify-identity-widget": "^1.9.0"
+  }
 }

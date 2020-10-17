@@ -1,6 +1,13 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { Flex, Container, Heading, Button } from "theme-ui";
-export const index = () => {
+const NetlifyIdentityWidget = require("netlify-identity-widget");
+
+export default props => {
+
+  useEffect( () => {
+    NetlifyIdentityWidget.init({});
+  });
+
   return (
     <Container>
       <Flex sx={{ flexDirection: "column", padding: 3 }}>
@@ -15,4 +22,3 @@ export const index = () => {
   );
 };
 
-export default index;
