@@ -1,0 +1,12 @@
+{
+  "name": "JAMstackTodoApp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mahmoodayaz7/JAMstackTodoApp.git",
+  "author": "Mehmood Ayaz <mahmoodayaz7@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces":[
+    "packages/*"
+  ]
+}
