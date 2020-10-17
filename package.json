@@ -11,5 +11,6 @@
   ],
   "dependencies": {
     "@types/netlify-identity-widget": "^1.9.0"
+
   }
 }
