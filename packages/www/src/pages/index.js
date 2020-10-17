@@ -13,7 +13,7 @@ export default props => {
       <Flex sx={{ flexDirection: "column", padding: 3 }}>
         <Heading as="h1">Todo App</Heading>
         <Button sx={{marginTop: 2}} 
-            onClick={() => alert('Login Button Click')}
+            onClick={() => {NetlifyIdentityWidget.open()}}
         >
             Login
         </Button>
